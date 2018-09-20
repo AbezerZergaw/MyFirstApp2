@@ -13,10 +13,10 @@ public class ForLoop {
 
         for (int x = 1; x <= 15; x++) {
             System.out.println("Enter number :");
-            int j = scanner.nextInt();
-            total = j * millimeter;
+            int input = scanner.nextInt();
+            total = input * millimeter;
 
-            System.out.println(j + " Inche =" + total +"MM");
+            System.out.println(input + " Inche =" + total +"MM");
 
         }
     }

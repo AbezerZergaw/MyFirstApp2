@@ -12,9 +12,9 @@ public class DoWhile {
 
         do {
             System.out.println("Enter number :");
-            int j = scanner.nextInt();
-            total = j * millimeter;
-            System.out.println(j + " Inche =" +(int)total+ " MM");
+            int input = scanner.nextInt();
+            total = input * millimeter;
+            System.out.println(input + " Inche =" +(int)total+ " MM");
         } while (x <= 15);
         x++;
     }

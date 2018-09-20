@@ -12,10 +12,10 @@ public class While {
         int x = 1;
         while (x <= 15) {
             System.out.println("Enter number :");
-            int j = scanner.nextInt();
-            total = j * millimeter;
+            int input = scanner.nextInt();
+            total = input * millimeter;
 
-            System.out.println(j + " Inche =" +(int)total+ " MM");
+            System.out.println(input + " Inche =" +(int)total+ " MM");
             x++;
         }
     }
